@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: "Lora";
   src: url("./fonts/Lora-Regular.ttf") format("truetype");
@@ -19,6 +21,20 @@
   text-decoration: none;
   box-sizing: border-box;
   font-family: "Lora", sans-serif;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: #FFFFFF;
+    color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+            background-image: linear-gradient(to top, #333333, #111111);
+            color: #DDDDDD;
+    }
 }
 
 header {
